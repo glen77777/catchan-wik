@@ -27,17 +27,18 @@ Settings:<br>
 Pic.3 ![Pic.3](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_0.png)<br>
 
 ###Note
-You'll see an triangle shape at the first time if you see a fast board like /v/, see Pic.4. The pic tells that all posts before 9:00 are pruned and the script have no clue to estimate before the time. After 9:00 there are some posts alive and the script can estimate coarsely, you can see some spikes. After 16:00 most of all data are filled probably and the estimation will be proper. And several hours later, it will be like pic.5. You can see "observed" and "alive" are split.<br>
+You'll see an triangle shape at the first time if you see a fast board like /v/, see Pic.4. The pic tells that all posts before 9:00 are pruned and the script have no clue to estimate before the time. After 9:00 there are some posts alive and the script can estimate coarsely, you can see some spikes. After 16:00 most of all data are filled probably and the estimation will be proper. And several hours later, it will be like pic.5. You can see "observed" and "alive" are split. And you'll get Pic.6 finally.<br>
 Pic.4 ![Pic.4](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_0.png)<br>
 Pic.5 ![Pic.5](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_1.png)<br>
+Pic.6 ![Pic.6](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_2.png)<br>
 
-###Targets selection (See. Pic.6)
+###Targets selection (See. Pic.7)
 You can set targets using board groups. The first board group is base board; when you in /v/, it is /v/. Therefore you can see graph of each board by visiting each board. But the second and later board group are configurable and you can switch it instantly. The first column is a label, the second and later column are targets. You can add '!stat' to accumulate data of the board group automatically. As you see in Pic.4, data must be accumulated if you want to see data of long time ago of fast boards. The numbers are summed in a board group. You can see numbers of a thread when you set a thread to a board group.<br>
-Pic.6 ![Pic.6](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_1.png)<br>
+Pic.7 ![Pic.7](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_1.png)<br>
 
 ###Advanced settings (See Pic.7)
 - Take statistics: Taking statistics, this consumes memory and CPU.
 - Estimate num of...: Activate estimation from posts' No., this also consumes memory and CPU.
 - Accumulation: Settings of accumulation.
 - Tolerant of ...: This function will work when your local clock is not accurate, but it wastes CPU power. You should set it accurate.<br>
-Pic.7 ![Pic.7](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_2.png)<br>
+Pic.8 ![Pic.8](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_2.png)<br>
