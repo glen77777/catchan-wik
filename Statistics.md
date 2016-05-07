@@ -36,7 +36,7 @@ Pic.6 ![Pic.6](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_2.
 You can set targets using board groups. The first board group is base board; when you in /v/, it is /v/. Therefore you can see graph of each board by visiting each board. But the second and later board group are configurable and you can switch it instantly. The first column is a label, the second and later column are targets. You can add '!stat' to accumulate data of the board group automatically. As you see in Pic.4, data must be accumulated if you want to see data of long time ago of fast boards. The numbers are summed in a board group. You can see numbers of a thread when you set a thread to a board group.<br>
 Pic.7 ![Pic.7](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_1.png)<br>
 
-###Advanced settings (See Pic.7)
+###Advanced settings (See Pic.8)
 - Take statistics: Taking statistics, this consumes memory and CPU.
 - Estimate num of...: Activate estimation from posts' No., this also consumes memory and CPU.
 - Accumulation: Settings of accumulation.
