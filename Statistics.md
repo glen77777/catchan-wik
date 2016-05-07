@@ -27,9 +27,10 @@ Settings:<br>
 Pic.3 ![Pic.3](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_0.png)<br>
 
 ###Note
-You'll see an triangle shape at the first time if you see a fast board like /v/, see Pic.4. The pic tells that all posts before 9:00 are pruned and the script have no clue to estimate before the time. After 9:00 there are some posts alive and the script can estimate coarsely, you can see some spikes. After 16:00 most of all data are filled probably and the estimation will be proper. And several hours later, it will be like pic.5. You can see "observed" and "alive" are split. And you'll get Pic.6 finally.<br>
+You'll see an triangle shape at the first time if you see a fast board like /v/, see Pic.4. The pic tells that all posts before 9:00 are pruned and the script have no clue to estimate before the time. After 9:00 there are some posts alive and the script can estimate coarsely, you can see some spikes. After 16:00 most of all data are filled probably and the estimation will be proper. And several hours later, it will be like Pic.5-1, 5-2. You can see "observed" and "alive" are split. And you'll get Pic.6 finally.<br>
 Pic.4 ![Pic.4](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_0.png)<br>
-Pic.5 ![Pic.5](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_1.png)<br>
+Pic.5-1 ![Pic.5](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_1.png)
+Pic.5-2 ![Pic.5](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_3.png)<br>
 Pic.6 ![Pic.6](https://github.com/DogMan8/CatChan/blob/master/docs/stats_note_2.png)<br>
 
 ###Targets selection (See. Pic.7)
