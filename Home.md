@@ -1,5 +1,3 @@
-Welcome to the CatChan wiki!
-
 # Functions
 1. Cross domain catalog
 2. Virtual board system
