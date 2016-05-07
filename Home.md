@@ -1,7 +1,7 @@
 # Functions
 1. Cross domain catalog
 2. Virtual board system
-3. Statistics
+3. [Statistics](https://github.com/DogMan8/CatChan/wiki/Statistics)
 4. Other functions
 5. Misc.
 
