@@ -38,8 +38,8 @@ You can set targets using board groups. The first board group is base board; whe
 Pic.7 ![Pic.7](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_1.png)<br>
 
 ###Advanced settings (See Pic.8)
-- Take statistics: Taking statistics, this consumes memory and CPU.
-- Estimate num of...: Activate estimation from posts' No., this also consumes memory and CPU.
+- Take statistics: Taking statistics, this consumes memory and CPU. Turn off when you don't need this function.
+- Estimate num of...: Activate estimation from posts' No., this also consumes memory and CPU. Turn off when you don't need this function.
 - Accumulation: Settings of accumulation.
 - Tolerant of ...: This function will work when your local clock is not accurate, but it wastes CPU power. You should set it accurate.<br>
 Pic.8 ![Pic.8](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_2.png)<br>
