@@ -16,7 +16,7 @@ Settings:<br>
 - Number of points: Number of points in graph. 
 - Scale of new thread: Scale of new thread. Number of new thread is 10 times or more smaller than new posts usually.
 - Shows: Posts/Threads: select which ones to show.
-- - Estimated posts: Number of new posts which is estimated from posts' No. This assumes posts' No. are added serially in a board, there are 50 posts between No.1000(referred as >>1000) and No.1050(referred as >>1050). Therefore this doesn't work if the board doesn't gives No. serially. Or sometimes causes spikes when the data are not filled. And this doesn't have granularity of threads; you can't get this number of a thread. 
+- - Estimated posts: Number of new posts which is estimated from posts' No. This assumes posts' No. are added serially in a board, there are 50 posts between No.1000(referred as >>1000) and No.1050(referred as >>1050). Therefore this doesn't work if the board doesn't give No. serially. Or sometimes causes spikes when the data are not filled. And this doesn't have granularity of threads; you can't get this number of a thread. 
 - - Observed posts: Number of new posts which is observed. This script scans entire board and counts all posts in each thread, and watch all new posts in the board. Sum of these are shown.
 - - Alive posts: Number of new posts which are alive. "Observed" - pruned.
 - - Observed thread: Number of new threads from the same manner of "Observed posts".
