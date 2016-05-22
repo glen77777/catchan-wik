@@ -47,7 +47,7 @@ Pic.7 ![Pic.7](https://github.com/DogMan8/CatChan/blob/master/docs/stats_setting
 Pic.8 ![Pic.8](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_2.png)<br>
 
 ###Pop up chart of individual thread (See Pic.9-1, 9-2)
-You can get popup chart of individual thread when you are in catalog. Popup chart doesn't have any individual settings, all settings are inherited from default. See Pic.8
-Pic.9-1 ![Pic.9-1](https://github.com/DogMan8/CatChan/blob/master/docs/stats_popup_0.png)<br>
+You can get popup chart of individual thread when you are in catalog. Popup chart doesn't have any individual settings, all settings are inherited from default. See Pic.8<br>
+Pic.9-1 ![Pic.9-1](https://github.com/DogMan8/CatChan/blob/master/docs/stats_popup_0.png)
 Pic.9-2 ![Pic.9-2](https://github.com/DogMan8/CatChan/blob/master/docs/stats_popup_1.png)<br>
 
