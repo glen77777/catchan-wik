@@ -8,7 +8,7 @@ This function shows numbers of new posts and threads. It accumulates them automa
 Pic.1 ![Pic.1](https://github.com/DogMan8/CatChan/blob/master/docs/stats_setup_0.png)<br>
 Pic.2 ![Pic.2](https://github.com/DogMan8/CatChan/blob/master/docs/stats_setup_1.png)<br>
 
-###Basic settings (See Pic.3)
+###Basic settings (See Pic.3-1, 3-2)
 You can change window size by grabbing right bottom corner of the window though it's really hard to grab. And you can change time scale or targets using selectors in the title bar, or open settings by clicking 'Gear Mark'.<br>
 Time scales: 1 min, 10 mins, 1 hour, 1 day and 1 week.<br>
 Select targets: See below.<br>
@@ -16,7 +16,8 @@ Settings:<br>
 - Number of points: Number of points in graph. 
 - Scale of new thread: Scale of new thread. Number of new thread is 10 times or more smaller than new posts usually.
 - Shows: Posts/Threads: select which ones to show.
-- - Estimated posts: Number of new posts which is estimated from posts' No. This assumes posts' No. are added serially in a board, there are 50 posts between No.1000(referred as >>1000) and No.1050(referred as >>1050). Therefore this doesn't work if the board doesn't give No. serially. Or sometimes causes spikes when the data are not filled. And this doesn't have granularity of threads; you can't get this number of a thread. 
+- - Estimated posts: Number of new posts which is estimated from posts' No. This function assumes that posts' No. are added serially in a board; there are 50 posts between No.1000(referred as >>1000) and No.1050(referred as >>1050). Therefore this function doesn't work if the board doesn't give No. serially. Or sometimes causes spikes when the data are not filled. And this doesn't have granularity of threads; you can't get this number of a thread.
+- - Clip posts: As stated above, estimated numbers may cause spikes, so you can clip them. See difference between Pic.3-1(clipped) and Pic.3-2(raw). 
 - - Observed posts: Number of new posts which is observed. This script scans entire board and counts all posts in each thread, and watch all new posts in the board. Sum of these are shown.
 - - Alive posts: Number of new posts which are alive. "Observed" - pruned.
 - - Observed thread: Number of new threads from the same manner of "Observed posts".
@@ -24,7 +25,8 @@ Settings:<br>
 - Legend: Show legends.
 - Animation: Graph animation when new points are added. This doesn't work on FireFox.
 - Point dot: radius: You can change point dot and its radius.<br>
-Pic.3 ![Pic.3](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_0.png)<br>
+Pic.3-1 ![Pic.3-1](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_3.png)<br>
+Pic.3-2 ![Pic.3-2](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_4.png)<br>
 
 ###Note
 You'll see an triangle shape at the first time if you see a fast board like /v/, see Pic.4. The pic tells that all posts before 9:00 are pruned and the script have no clue to estimate before the time. After 9:00 there are some posts alive and the script can estimate coarsely, you can see some spikes. After 16:00 most of all data are filled probably and the estimation will be proper. And several hours later, it will be like Pic.5-1, 5-2. You can see "observed" and "alive" are split. And you'll get Pic.6 finally.<br>
@@ -43,3 +45,9 @@ Pic.7 ![Pic.7](https://github.com/DogMan8/CatChan/blob/master/docs/stats_setting
 - Accumulation: Settings of accumulation.
 - Tolerant of ...: This function will work when your local clock is not accurate, but it wastes CPU power. You should set it accurate.<br>
 Pic.8 ![Pic.8](https://github.com/DogMan8/CatChan/blob/master/docs/stats_settings_2.png)<br>
+
+###Pop up chart of individual thread (See Pic.9-1, 9-2)
+You can get popup chart of individual thread when you are in catalog. Popup chart doesn't have any individual settings, all settings are inherited from default. See Pic.8
+Pic.9-1 ![Pic.9-1](https://github.com/DogMan8/CatChan/blob/master/docs/stats_popup_0.png)<br>
+Pic.9-2 ![Pic.9-2](https://github.com/DogMan8/CatChan/blob/master/docs/stats_popup_1.png)<br>
+
