@@ -10,6 +10,9 @@ This is a userscript. You need [Greasemonkey](https://addons.mozilla.org/ja/fire
 [Get Stable version](https://github.com/DogMan8/CatChan/blob/master/CatChan.user.js)<br>
 [Get BETA version](https://github.com/DogMan8/CatChan/blob/develop/CatChan.user.js)
 
+### Setup
+See [Setup in wiki](https://github.com/DogMan8/CatChan/wiki/Setup)
+
 ### Supported browser
 Latest Chrome or latest FireFox. I use Chrome for development, so it might have less bugs.
 
