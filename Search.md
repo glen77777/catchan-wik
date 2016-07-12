@@ -28,19 +28,19 @@ Pic.search_panel ![Pic.search_panel](https://github.com/DogMan8/CatChan/blob/mas
 - '>': Scan this board, or these virtual boards if some virtual boards are selected.
 - '>>': Scan this site, or all virtual boards if some virtual boards are selected. This scan has limits of maximum number of physical or virtual boards for safe. It's 100 by default.
 
-####Basic Search in catalog
+###Basic Search in catalog
 1. Type keywords and set other criteria.
 2. If you want to search from posts, click '>' to scan the board, or '>>' to scan entire site.
 3. If you want to make next search, type keywords and click scan.
 
-####Stored Search in catalog (incremental posts search)
+###Stored Search in catalog (incremental posts search)
 1. Type keywords and set other criteria.
 2. Set the store mode. If you want to store all posts and get popup, see pic.
 3. Click '>' to scan the board, or '>>' to scan entire site.
 4. Then all posts are stored, you can make next search incrementally.
 Pic.stored_search_in_catalog ![Pic.stored_search_in_catalog](https://github.com/DogMan8/CatChan/blob/master/docs/search_stored_catalog_0.png)<br>
 
-####Stored Search in index page (the same manner as catalog)
+###Stored Search in index page (incremental posts search, the same manner as catalog)
 1. Type keywords and set other criteria.
 2. Index page has the last 5 posts usually, therfore the search seeks the keyword from them by default. If you want to search from all posts in the threads, you must change them, see pic.
 3. If you want to scan, click '>' to scan the board, or '>>' to scan entire site.
