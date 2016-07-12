@@ -3,7 +3,7 @@
 2. Virtual board system
 3. [Statistics](https://github.com/DogMan8/CatChan/wiki/Statistics)
 4. Other functions<br>
-&emsp;&emsp;[Search](https://github.com/DogMan8/CatChan/wiki/Search)
+&emsp;&emsp;[Incremental search from posts in entire sites](https://github.com/DogMan8/CatChan/wiki/Search)
 5. Misc.
 
 ### Installation
