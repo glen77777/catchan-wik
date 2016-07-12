@@ -2,7 +2,8 @@
 1. Cross domain catalog
 2. Virtual board system
 3. [Statistics](https://github.com/DogMan8/CatChan/wiki/Statistics)
-4. Other functions
+4. Other functions<br>
+&emsp;&emsp;[Search](https://github.com/DogMan8/CatChan/wiki/Search)
 5. Misc.
 
 ### Installation
