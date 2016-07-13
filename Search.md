@@ -24,9 +24,9 @@ CatChan provides keyword search for entire sites. It works as follows basically.
 - RE: Regular expression.
 - CI: Case insensitive, see "A" and "a" as identical letters.
 - Sentence: Don't split the keyword by " ", single space is a part of keyword. For example, "Dr. X" without sentence mode matches "Dr. X" and "XERXES" because they are split to "Dr." and "X" by " ". But in sentence mode, it matches "Dr. X" and it doesn't match to "XERXES".
-Pic.search_panel ![Pic.search_panel](https://github.com/DogMan8/CatChan/blob/master/docs/search_panel_0.png)<br>
 - '>': Scan this board, or these virtual boards if some virtual boards are selected.
 - '>>': Scan this site, or all virtual boards if some virtual boards are selected. This scan has limits of maximum number of physical or virtual boards for safe. It's 100 by default.
+Pic.search_panel ![Pic.search_panel](https://github.com/DogMan8/CatChan/blob/master/docs/search_panel_0.png)<br>
 
 ###Basic Search in catalog
 1. Type keywords and set other criteria.
