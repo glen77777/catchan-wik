@@ -32,6 +32,8 @@ Pic.search_panel ![Pic.search_panel](https://github.com/DogMan8/CatChan/blob/mas
 1. Type keywords and set other criteria.
 2. If you want to search from posts, click '>' to scan the board, or '>>' to scan entire site.
 3. If you want to make next search, type keywords and click scan.
+4. Basic search can generate popup also, refer "Stored Search".
+Pic. basic_search ![Pic. basic_search](https://github.com/DogMan8/CatChan/blob/master/docs/search_basic_0.png)<br>
 
 ###Stored Search in catalog (incremental posts search)
 1. Type keywords and set other criteria.
