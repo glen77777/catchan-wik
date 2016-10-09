@@ -27,4 +27,37 @@ Tag: means a short word led by "#", like #a, #CatChan or #JavaScript. By default
 ###How to use it?
 &emsp;Virtual boards will appear in boardlist. You can toggle them by clicking it.
 Pic.virtualBoard ![Pic.virtualBoard](https://github.com/DogMan8/CatChan/blob/master/docs/vb_boardlist_0.png)<br>
-Or you can search and choose virtual boards from search panel.
+Or you can search and choose virtual boards from search panel manually.
+Pic.taglist ![Pic.taglist](https://github.com/DogMan8/CatChan/blob/master/docs/vb_taglist_0.png)<br>
+
+###Set up
+&emsp;There are two panels for virtualBoard system, "Virtual Board" and "Live Tag".
+- Show virtual boards, up to X: Show virtual boards in boardlist or not, and how many.
+- Scan at start up, delay: Xs: Scan sites at start up with X seconds delay.
+- Scan targets:
+- - None: Don't scan.
+- - Board: Read boards.json to know which boards are there, and add board's tag.
+- - Thread: Scan whole boards to know tags in threads.
+- - Instant scan: Scan immediately after changing scan targets.
+- Physical boards in boardlist: determine how to handle physical boards in boardlist.
+- Show information hover: Show tag's information on hover.
+- - U: urty/ur/urt / T: nt / B: snb/nb
+- - urty: number of unread replies to you in threads which have this tag.
+- - ur: number of unread replies in threads which have this tag.
+- - urt: number of threads which have unread replies in threads which have this tag.
+- - nt: number of threads which have this tag.
+- - snb: number of scanned boards which have threads which have this tag.
+- - nb: number of boards which have threads which have this tag.
+- Style of selected board: style of selected board in boardlist or each thread.
+- Add style: Change tag's style according to tag's state.<br>
+Pic.setting_virtualBoard ![Pic.setting_virtualBoard](https://github.com/DogMan8/CatChan/blob/master/docs/vb_setup_vb_0.png)<br>
+- From: Choose source of extraction of tags, OP or whole posts in a thread.
+- Live: Update tags lively.
+- max: max number of tags in a thread.
+- max string length: max length of each tag.
+- Case insensitive: Case insensitive about tag.
+- Click function: Choose function at click the tag.
+- - Pickup: pick up threads which have the tag. 
+- - Include: show threads which have the tag.
+- - Exclude: hide threads which have the tag.<br>
+Pic.setting_liveTag ![Pic.setting_liveTag](https://github.com/DogMan8/CatChan/blob/master/docs/vb_setup_lt_0.png)<br>
