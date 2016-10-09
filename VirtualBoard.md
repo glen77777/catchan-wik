@@ -39,7 +39,7 @@ Pic.taglist ![Pic.taglist](https://github.com/DogMan8/CatChan/blob/master/docs/v
 - - Board: Read boards.json to know which boards are there, and add board's tag.
 - - Thread: Scan whole boards to know tags in threads.
 - - Instant scan: Scan immediately after changing scan targets.
-- Physical boards in boardlist: determine how to handle physical boards in boardlist.
+- Physical boards in boardlist: Determine how to handle physical boards in boardlist.
 - Show information hover: Show tag's information on hover.
 - - U: urty/ur/urt / T: nt / B: snb/nb
 - - urty: number of unread replies to you in threads which have this tag.
@@ -48,16 +48,16 @@ Pic.taglist ![Pic.taglist](https://github.com/DogMan8/CatChan/blob/master/docs/v
 - - nt: number of threads which have this tag.
 - - snb: number of scanned boards which have threads which have this tag.
 - - nb: number of boards which have threads which have this tag.
-- Style of selected board: style of selected board in boardlist or each thread.
+- Style of selected board: Style of selected board in boardlist or each thread.
 - Add style: Change tag's style according to tag's state.<br>
 Pic.setting_virtualBoard ![Pic.setting_virtualBoard](https://github.com/DogMan8/CatChan/blob/master/docs/vb_setup_vb_0.png)<br>
 - From: Choose source of extraction of tags, OP or whole posts in a thread.
 - Live: Update tags lively.
-- max: max number of tags in a thread.
-- max string length: max length of each tag.
+- max: Max number of tags in a thread.
+- max string length: Max length of each tag.
 - Case insensitive: Case insensitive about tag.
 - Click function: Choose function at click the tag.
-- - Pickup: pick up threads which have the tag. 
-- - Include: show threads which have the tag.
-- - Exclude: hide threads which have the tag.<br>
+- - Pickup: Pick up threads which have the tag. 
+- - Include: Show threads which have the tag.
+- - Exclude: Hide threads which have the tag.<br>
 Pic.setting_liveTag ![Pic.setting_liveTag](https://github.com/DogMan8/CatChan/blob/master/docs/vb_setup_lt_0.png)<br>
