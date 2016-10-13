@@ -24,4 +24,4 @@ This script will work with 4chan-X, dollchan, or DesuDesuTalk. But I haven't tes
 ### Contact
 You can contact with me in following threads for development.<br>
 [lainchan.org/λ](https://lainchan.org/%CE%BB/res/10247.html)<br>
-[meguca.org/g](https://meguca.org/g/1355772)<br>
+[meguca.org/g](https://meguca.org/g/1802324)<br>
