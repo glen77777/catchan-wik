@@ -11,7 +11,13 @@ IndexedDB is a storage area in browser, but it has only TEMPORARY storage, and i
 2. The capacity is very limited. You can see it in CatChan's settings popup, but it's 1/10 of your free area of root partition of your HDD approximately.  
 If you want to know about details, see [Browser storage limits and eviction criteria](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria).
 
-You don't have to maintain your archive in IndexedDB, because CatChan can maintain it. Delayed pruning can be made with IndexedDB. 
+You don't have to maintain your archive in IndexedDB, because CatChan can maintain it. Delayed pruning can be made with IndexedDB.  
+Since IndexedDB has asynchronous APIs only, the script can't assure that all data are surely stored when you terminate the tab without waiting finish of all tasks. You can see it from indicators of IDB. 
+- Green circle: IDB finished all tasks without errors. 
+- Orange circle: IDB finished all tasks with errors, however, all data is stored surely. (The script has retry function.) 
+- Others: IDB is working. If you terminate your tab, all unwritten data will be lost. Archives lost some files.
+![indicators_IDB](https://github.com/DogMan8/CatChan/blob/master/docs/archive_indicators_IDB.png)
+
 ####How to choose
 You can choose file, IndexedDB or both.  
 If you want to make an archive, use file.  
