@@ -16,6 +16,10 @@ You don't have to maintain your archive in IndexedDB, because CatChan can mainta
 You can choose file, IndexedDB or both.  
 If you want to make an archive, use file.  
 If you have enough capacity and you want to do nothing, select IndexedDB.
+####Inter operability
+- Export threads from IndexedDB to file: supported.
+- Extract from Ctrl+S archive: supported.
+- Extract from dollchan's archive: not supported. Dollchan tweaks HTMLs so much, the script can't handle this.
 
 ###How to store
 1. Select resources to be stored.  
