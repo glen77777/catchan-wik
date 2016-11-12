@@ -1,10 +1,11 @@
 # Functions
 1. Cross domain catalog
-2. Virtual board system
+2. [Virtual board](https://github.com/DogMan8/CatChan/wiki/VirtualBoard) system
 3. [Statistics](https://github.com/DogMan8/CatChan/wiki/Statistics)
-4. Other functions<br>
-&emsp;&emsp;[Incremental search from posts in entire sites](https://github.com/DogMan8/CatChan/wiki/Search)
-5. Misc.
+4. [Archiver](https://github.com/DogMan8/CatChan/wiki/Archiver)
+5. Other functions  
+    [Incremental search from posts in entire sites](https://github.com/DogMan8/CatChan/wiki/Search)
+6. Misc.
 
 ### Installation
 This is a userscript. You need [Greasemonkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/) (for Firefox) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (for Chrome) beforehand. Then click following link to install.<br>
