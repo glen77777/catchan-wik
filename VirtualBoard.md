@@ -1,4 +1,4 @@
-###What is the VirtualBoard?
+### What is the VirtualBoard?
 Virtual board: Virtual board is a tag-based, software-based board system. It aggregates all threads by tags.
 OK, let me explain and organize.
 
@@ -6,7 +6,7 @@ Physical board: means a usual board like /a/. This can be accessed by URL direct
 Virtual board: means a bunch of threads which are added specific tags like #a. This can't be accessed by URL directly, but scripts like CatChan will scrape sites to aggregate them. You can switch virtual boards like physical boards.<br>
 Tag: means a short word led by "#", like #a, #CatChan or #JavaScript. By default, a thread inherits tags from boards.json and a tag which is the same as board's name. You can add tags in OP or posts by posting word "#XXXX". For example, CatChan thread in lainchan has tags of "#λ"(from board's name), "#XXX", '#XXXX", "#CatChan", "#virtualBoard"(from OP).<br>
 
-###What is the virtue of VirtualBoard?
+### What is the virtue of VirtualBoard?
 1. You can merge multiple boards from sites to a catalog.<br>
 &emsp;You don't have to visit 4chan/a/, 8chan/a/ and meguca/a/. Or you don't have to see all of 8chan/*pol*/. You can just visit #a or #pol.
 2. A thread can exist in multiple virtual boards.<br>
@@ -20,17 +20,17 @@ Tag: means a short word led by "#", like #a, #CatChan or #JavaScript. By default
 6. Virtual board system is a superset of physical board system which is used now.<br>
 &emsp;When you limit threads to inherit only a tag which is derived from its board's name, for example, #a for threads in /a/, virtual board system works nearly similar to physical board system. Virtual board system is a superset of physical board system. No features are lost, but it gives extreme flexibility.
 7. Good moderation can be provided. Users can evaluate and choose moderators.<br>
-&emsp;In physical board system, slow boards are considered as "dead boards", and no one won't post it. Therefore people flock in faster boards, and this pressure can be found everywhere. Moderators are deeply hierarchical, and  their name are concealed. You can't know who moderates which posts. On the contrary, virtual board system is open for participants. Anyone can move any thread to any virtual boards, therefore small "dead board"'s owner can participate to moderate in bigger virtual boards. You may think this brings the same problem that who moderates which thread, but it's not. A thread must belong to a physical board, so you can see who is the moderator by its physical board. You can place your thread to any board in a virtual board system, so you can choose your moderator. If you know a good moderator for the topic, you should put your thread in that physical board with your tag, then you'll get a thread in specific virtual board with a specific moderator. This means virtual board system has evaluation system of moderators inherently. And you can bring good moderators to big board as you wish. Virtual board system keeps moderation granularity small. This brings good moderation potentially.
-&emsp;As you understand, physical board means that who is the moderator of this board in virtual board system. We citizen can evaluate the skill of moderators without introducing unnecessary obscuring hierarchy. We can name and evaluate a moderator directly.
+&emsp;In physical board system, slow boards are considered as "dead boards", and no one won't post it. Therefore people flock in faster boards, and this pressure can be found everywhere. Moderators are deeply hierarchical, and  their name are concealed. You can't know who moderates which posts. On the contrary, virtual board system is open for participants. Anyone can move any thread to any virtual boards, therefore small "dead board"'s owner can participate to moderate in bigger virtual boards. You may think this brings the same problem that who moderates which thread, but it's not. A thread must belong to a physical board, so you can see who is the moderator by its physical board. You can place your thread to any board in a virtual board system, so you can choose your moderator. If you know a good moderator for the topic, you should put your thread in that physical board with your tag, then you'll get a thread in specific virtual board with a specific moderator. This means virtual board system has evaluation system of moderators inherently. And you can bring good moderators to big board as you wish. Virtual board system keeps moderation granularity small. This brings good moderation potentially.<br>
+&emsp;As you understand, physical board means that who is the moderator of this board in virtual board system. We citizen can evaluate the skill of moderators without introducing unnecessary obscure hierarchy. We can name and evaluate a moderator directly.
 8. Give liquidity to trigger appropriate competition between boards or sites by removing barriers.<br>
 
-###How to use it?
+### How to use it?
 &emsp;Virtual boards will appear in boardlist. You can toggle them by clicking it.
 Pic.virtualBoard ![Pic.virtualBoard](https://github.com/DogMan8/CatChan/blob/master/docs/vb_boardlist_0.png)<br>
 Or you can search and choose virtual boards from search panel manually.
 Pic.taglist ![Pic.taglist](https://github.com/DogMan8/CatChan/blob/master/docs/vb_taglist_0.png)<br>
 
-###Set up
+### Set up
 &emsp;There are two panels for virtualBoard system, "Virtual Board" and "Live Tag".
 - Show virtual boards, up to X: Show virtual boards in boardlist or not, and how many.
 - Scan at start up, delay: Xs: Scan sites at start up with X seconds delay.
